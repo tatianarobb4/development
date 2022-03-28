@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!--global css file-->
+        <link rel="stylesheet" type="text/css" href="../css/main.css" />
+
+        <!--Media query for differing browser widths-->
+        <link rel="stylesheet" media="only screen and (max-width: 700px)" href="../css/small.css" />
+
+        <!--Prevent smartphones from scaling the page-->
+        <meta name="viewright" content="initial-scale=1" />
+    </head>
+
+    <body>
+        <div>
+            <!--header-->
+            <header>
+                <h1 id="heading">Assignment 5</h1>
+
+                <!--My Links!-->
+                <div class="topnav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Ass 1</a></li>
+                        <li><a href="../asg2.html">Ass 2</a></li>
+                        <li><a href="../asg3.html">Ass 3</a></li>
+                        <li><a href="../asg4.html">Ass 4</a></li>
+                        <li><a href="../fortuneC.html">Fortune</a></li>
+                        <li><a href="jQweb/index.html">JQuery</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="main_five">
+                <section class="changer">
+                    <div class="highlight">
+                        <h1 id="special">Changing stuff</h1>
+                        <button id="change">Change styles</button>
+                        <p>hello we are changing things</p>
+                        <p>My hands are so cold. The Linguistics department has a broken heater</p>
+                    </div>
+                </section>
+
+                <section class="manipulation">
+                    <h1>Manipulate this image!!</h1>
+                    <button id="hide">Hide</button>
+                    <button id="show">Show</button>
+                    <button id="fade">Fade Out</button>
+                    <br>
+                    <img src="../images/brown.jpg" height="500px" width= "500px">
+                </section>
+
+                <section class="validation">
+                    
+                        <h1>Username and Password</h1>
+                        <label for="uname">Username:</label><br>
+                        <input type="text" id="uname" name="logIn"><br>
+
+                        <label for="pword">Password:</label><br>
+                        <input type="text" id="pword" name="logIn"><br>
+
+                        <button id="submit">Submit</button>
+                        <div id="demo"></div>
+                    
+                    
+                </section>
+
+                <div>
+                    <section class="animation">
+                        <h1>Animation</h1>
+                        <button id="animate">Animate</button>
+                        <div id="animation" style="background: blue; height: 50px; width: 50px; position: relative;"></div>
+                    </section>
+                </div>
+            </div>
+            
+
+            <!--footer-->
+            <footer>
+                <p>© 2021 Tatiana Robb</p>
+            </footer>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/myscript.js"></script> 
+    </body>
+</html>

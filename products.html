@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!--global css file-->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+        <!--Media query for differing browser widths-->
+        <link rel="stylesheet" media="only screen and (max-width: 700px)" href="css/small.css" />
+
+        <!--Prevent smartphones from scaling the page-->
+        <meta name="viewright" content="initial-scale=1" />
+    </head>
+
+    <body>
+        <div>
+            <!--header-->
+            <header>
+                <h1 id="heading">Used Bookstore</h1>
+
+                <!--My Links!-->
+                <div class="topnav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Ass 1</a></li>
+                        <li><a href="asg2.html">Ass 2</a></li>
+                        <li><a href="asg3.html">Ass 3</a></li>
+                        <li><a href="asg4.html">Ass 4</a></li>
+                        <li><a href="asg5/index.html">Ass 5</a></li>
+                        <li><a href="fortuneC.html">Fortune</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <section class="catalog">
+                <!--product one-->
+                <div class="product1">
+                    <img src="images/world.jpg" height="400px" width="350px" id="book1">
+                    <div id="words1">
+                        <h2>If This World were Mine</h2>
+                        <h3>By E. Lynn Harris</h3>
+                        <p>
+                            This book kicked off my search of 'black people in the 90s just doing things' books. Not just a group of women but
+                            men and women. Which was super refreshing. Even though I didn't like the tech guy. He was a HOTEP.. I had my two 
+                            obvious favorites: successful and sexy black woman and successful and sexy gay black man. And they were best friends!
+                            Also can I just say that the cover is stunning!
+                        </p>
+                        Price: <input type=number id=price value=13.45 readonly>
+                        Quantity: <input type="number" id="quantity" min="0">
+                        <div id="result"></div>
+                    </div>
+                </div>
+
+                <!--product two-->
+                <div class="product2">
+                    <div id="words2">
+                        <h2>Waiting to Exhale</h2>
+                        <h3>By Terry McMillian</h3>
+                        <p>
+                            A great book. All of the women are dynamic, different, and exciting in their own ways. I felt like I was friends
+                            with them. I think I read this book in two days. It was impossible for me to put down. Every character is relatable
+                            in different ways. We had my pretty astrology babe, rich yet kinda insecure divorcee, single mom trying to find herself
+                            again, and career woman also looking for love.
+                        </p>
+                        Price: <input type=number id=price2 value=10.10 readonly>
+                        Quantity: <input type="number" id="quantity2" min="0">
+                        <div id="result2"></div>
+                    </div>
+                    <img src="images/exhale.jpg" height="400px" width="350px" id="book2">
+                </div>
+
+                <div class="shippin">
+                    <p>Would you like to add shipping? ~ $2.50</p>
+                    Yes: <input type="radio" id=yes value="yes" name="shipping">
+                    No: <input type="radio" id=no value="no" name="shipping">
+                    <div>
+                        <p id="grand">Your total is: ...</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="checkout">
+                <form action="#" class="formz">
+                    <h1>Checkout</h1>
+
+                    <!--input for name and email-->
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="name" name="fname"><br>
+
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="name" name="lname"><br>
+
+                    <label for="email">Email address</label><br>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="zipcode">Zipcode</label><br>
+                    <input type="number" id="zip" name="zip"><br>
+
+                    <label for="phone">Phone Number</label><br>
+                    <input type="number" id="phone" name="phone"><br>
+                    
+                    <!--credit card info-->
+                    <p>Credit/Debit card:</p>
+                    <label for="credit">AMEX</label>
+                    <input name="creditCard" type="radio" value="Amex">
+                    <label for="credit">Visa</label>
+                    <input name="creditCard" type="radio" value="Visa" ><br>
+
+                    <input type="number" id="credit" name="credit" min="1000000000000000"><br>
+
+                    <!--submit-->
+                    <input type="submit" name="submit" value="submit">
+                    <input type="reset" name="reset" value="reset">
+                </form>
+                <p id="demo" style= "color:#221608"> Display ouput (Receipt) here or inside a new document</p>
+            </section>
+
+            <script src="js/asg4cart.js"></script>
+
+            <!--footer-->
+            <footer>
+                <p>© 2021 Tatiana Robb</p>
+            </footer>
+        </div>
+    </body>
+</html>

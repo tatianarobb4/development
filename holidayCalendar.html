@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!--global css file-->
+        <link rel="stylesheet" type="text/css" href="css/holidayCalendar.css" />
+
+        <!--Prevent smartphones from scaling the page-->
+        <meta name="viewright" content="initial-scale=1" />
+    </head>
+
+    <body>
+        <div>
+            <!--header-->
+            <header>
+                <h1 id="heading">NYU Holiday Calendar</h1>
+
+                <!--My Links!-->
+                <div class="topnav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Ass 1</a></li>
+                        <li><a href="asg2.html">Ass 2</a></li>
+                        <li><a href="asg3.html">Ass 3</a></li>
+                        <li><a href="asg4.html">Ass 4</a></li>
+                        <li><a href="asg5/index.html">Ass 5</a></li>
+                        <li><a href="fortuneC.html">Fortune</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class = "calendar">
+                <section>
+                    <!--<h1>Is It an NYU Holiday?</h1>-->
+
+                    <div class="inputz">
+                        <form>
+                            <label for="date">Enter a date:</label>
+                            <input type="date" id="holiday">
+                        </form>
+    
+                        <!--button to find out-->
+                        <button onclick="holidayCalendar()">Click to see if it's a nyu holiday</button>
+                    </div>
+
+                    <div class="outputz">
+                        <div class="pix">
+                           <!--display date, holiday or nay, and picture-->
+                            <img src="images/question.jpg" id= "pic"  height="400px" width="400px">
+                            <figcaption id="caption">found on: https://www.rawpixel.com/image/2626534/free-illustration-vector-question-mark-kids</figcaption> 
+                        </div>
+                        
+                        <p id="output">Here you can find if a specific date is a NYU holiday</p>
+                    </div>
+                    
+                    <script src="js/holidayCalendar.js"></script>
+                </section>
+            </div>
+                
+
+            <!--footer-->
+            <footer>
+                <p>© 2021 Tatiana Robb</p>
+            </footer>
+        </div>
+    </body>
+</html>

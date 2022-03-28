@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!--global css file-->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+        <!--Media query for differing browser widths-->
+        <link rel="stylesheet" media="only screen and (max-width: 700px)" href="css/small.css" />
+
+        <!--Prevent smartphones from scaling the page-->
+        <meta name="viewright" content="initial-scale=1" />
+    </head>
+
+    <body>
+        <div>
+            <!--header-->
+            <header>
+                <h1 id="heading">Assignment 2</h1>
+
+                <!--My Links!-->
+                <div class="topnav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Ass 1</a></li>
+                        <li><a href="asg2.html">Ass 2</a></li>
+                        <li><a href="asg3.html">Ass 3</a></li>
+                        <li><a href="asg4.html">Ass 4</a></li>
+                        <li><a href="asg5/index.html">Ass 5</a></li>
+                        <li><a href="fortuneC.html">Fortune</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div id="problemOne">
+                <section class="s1" id="section1">
+                    <img src="images/dusty.jpg" width=300 height=350 id="img1" onclick="swapImg()" />
+
+                    <p id="p1" onclick="swapT()">
+                        Massa sapien faucibus et molestie ac feugiat sed lectus. Eu mi bibendum neque egestas congue. Lectus mauris ultrices
+                         eros in cursus turpis massa.
+                    </p>
+
+                    <script src="js/asg2.js"></script>
+                </section>
+
+                <section class="s2">
+                    <div>
+                        <h1 id="title">Color Changer</h1>
+                        <button onclick="change()">change</button>
+                        <p>click to change style</p>
+                        <script src="js/asg2.js"></script>
+                    </div>
+                    
+                    <div>
+                        <h1>Prize</h1>
+                        <button onclick="randPrize()">Click to win prize</button>
+                        <p id="prize">Your prize is an ipad</p>
+                        <script src="js/asg2.js"></script>
+                    </div>
+                </section>
+
+                <section class="s3" id="section3">
+                    <p id="p2" onclick="swapT()">
+                        Et netus et malesuada fames ac turpis egestas maecenas pharetra. Arcu ac tortor dignissim convallis aenean et tortor 
+                        at. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Nec dui nunc mattis enim.
+                    </p>
+
+                    <img src="images/peach.jpg" width=300 height=350 id="img2" onclick="swapImg()" />
+
+                    <script src="js/asg2.js"></script>
+                </section>
+            </div>
+                
+
+            <!--footer-->
+            <footer>
+                <p>© 2021 Tatiana Robb</p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,498 @@
+/*design for the entire page*/
+body {
+    background-color: #fee9e1;
+    font-family: obviously;
+}
+
+
+/*heading stuff*/
+#heading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*top navigational bar*/
+
+.topnav {
+    margin-bottom: 10px;
+}
+
+.topnav ul {
+    /*list-style-position: inside;*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.topnav li {
+    display: inline-block;
+}
+
+.topnav a{
+    width: 80px;
+    display: block;
+    color: black;
+}
+
+button:hover {
+    color: rgba(233, 169, 179, 0.863);
+}
+
+a:link {
+    color: rgb(128, 96, 15);
+    text-decoration: none;
+}
+
+a:visited {
+    color: burlywood;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(233, 169, 179, 0.863);
+    text-decoration: none;
+}
+
+a:active {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+
+
+/*main section tings*/
+.homePage h1 {
+    text-align: center;
+    padding: 70px;
+    font-size: 50px;
+}
+
+.mainSection section {
+    height: 292px;
+}
+/*secondary section*/
+.second {
+    background-color: #C5A596;
+    padding: 70px;
+}
+
+.second p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/*third section with picture*/
+.third {
+    padding: 30px;
+}
+
+.third img {
+    width: 45%;
+    
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.third p{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.third h1 {
+    margin: 5px;
+}
+
+
+/*fourth and final section*/
+.fourth {
+    background-color: #FAD4C0;
+    padding: 70px;
+}
+
+.fourth p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/*contact page*/
+.contactPage {
+    padding: 30px;
+}
+
+.contactPage img {
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+}
+
+form {
+    text-align: center;
+    background-color: #F7CAB5;
+    padding: 30px;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=time] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.check {
+    padding-left: 20%;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+
+
+/*assignment 2 page*/
+
+/*assignment 2 main page*/
+.s1,.s2, .s3 {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.s1 {
+    background-color: #F7B08D;
+}
+
+.s3 {
+    background-color: #E59276;
+}
+
+.s2 {
+    margin: 30px;
+    padding: 0px;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: aliceblue;
+}
+
+
+.s2 div {
+    width: 50%;
+    text-align: center;
+    margin: 10px;
+}
+
+#p1, #p2 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#img1, #img2 {
+    width: 55%;
+}
+
+
+/*section for fortune cookie program for assignment 2*/
+
+.cookie {
+    padding: 30px;
+    height: 500px;
+    text-align: center;
+    background-image: url("/images/brown.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1 {
+    
+    background-color: azure;
+}
+
+/*for assignment 3*/
+.three {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #FAD4C0;
+}
+
+.three img {
+    width: 55%;
+    padding-right: 20px;
+}
+
+.links {
+    width: 45%;
+    padding: 55px;
+    font-size: 25px;
+}
+
+/*assignment 4*/
+
+/*assignment 4 main page*/
+.four {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #CEA587;
+}
+
+.four img {
+    width: 55%;
+    padding-right: 20px;
+}
+
+.links {
+    width: 45%;
+    padding: 55px;
+    font-size: 25px;
+}
+
+.four a {
+    color: #815839;
+}
+
+/*products page*/
+.product1, .product2 {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.product1 {
+    background-color: #AE725A;
+}
+
+.product2 {
+    background-color:#FAD4C0;
+}
+
+#book1, #book2 {
+    width: 35%;
+}
+
+#words1, #words2 {
+    padding: 40px;
+}
+
+input[type=number] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#price, #price2, #quantity, #quantity2 {
+    width: 70px;
+    padding: 0px 0px;
+}
+
+.checkout form {
+    background-color: #CEA587;
+}
+
+.shippin {
+    text-align: center;
+    height: 110px;
+}
+
+/*nodes*/
+.nodes {
+    background-color: #C5A596;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nodes button {
+    background-color: #C5A596;
+    border-width: 0px;
+}
+
+.nodes h1 {
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.cool {
+    
+    color: #C5A596;
+    width: 90px;
+}
+
+.cool a:link {
+    color: #C5A596;
+}
+
+.cool a:visited {
+    color: #C5A596;
+}
+
+.cool a:hover {
+    color: #a56336;
+}
+
+
+footer {
+    position: relative;
+    text-align: center;
+}
+
+/*all the css for assignment five page*/
+.main_five {
+    text-align: center;
+}
+
+.main_five section {
+    margin: 5px;
+    padding: 10px;
+}
+
+.main_five button {
+    margin: 5px;
+}
+
+/*css changing one*/
+.changer {
+    background-color: #F7B08D;
+}
+
+/*the part where we changing the image with buttons*/
+.manipulation img {
+    margin: 5px;
+}
+
+/*username and password tings*/
+.validation {
+    background-color: #C5A596;
+}
+
+/*assignment 6 things*/
+
+/*index page*/
+.six {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #C5A596;
+}
+
+.six img {
+    width: 55%;
+    padding-right: 20px;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 0 67%;
+    align-items: center;
+}
+
+.navi li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left:6px;
+    margin-right:6px;
+
+}
+
+.navi ul {
+    padding: 0px;
+    text-align:center;
+}
+
+.navi {
+    width: 50%;
+}
+
+.mainTitle {
+    width: 50%;
+
+}
+
+.logo {
+    flex-grow: 0;
+    flex-shrink: 1;
+    display: inline-flex;
+    align-items: center;
+    width: 33%;
+    justify-content: flex-end;
+}
+
+.back {
+    background-color: #C5A596;
+    height: 350px;
+    text-align:center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.extra {
+    border-width: 1px;
+    border-top-style: solid;
+    border-bottom-style:solid;
+    padding: 20px;
+}
+
+.ppp {
+    padding: 10px;
+}

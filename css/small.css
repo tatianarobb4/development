@@ -1,0 +1,211 @@
+/*navigational bar*/
+.topnav li {
+    display: block; 
+}
+
+.topnav a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav ul {
+    text-align: center;
+}
+
+.topnav {
+    border: #FAD4C0;
+    border-radius: 30px;
+    border-style: dotted;
+    margin-bottom: 10px;
+}
+
+/*first section with big ole words*/
+.homePage h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+/*third section with picture*/
+.third {
+    padding: 30px;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.content img {
+    width: 60%;
+}
+
+.third p{
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*contact page*/
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=time] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+/*assignment two*/
+
+/*assignment two main page*/
+
+.s1, .s2, .s3 {
+    flex-direction: column;
+}
+
+#p1, #p2 {
+    padding: 25px;
+}
+
+.s2 {
+    border-style: dashed;
+    border-radius: 3px;
+    border-color: aliceblue;
+}
+
+.s2 div {
+    border: none;
+}
+
+#img1, #img2 {
+    width: 80%
+}
+
+.problemOne img {
+    width: 65%;
+}
+
+
+/*section for fortune cookie program for assignment 2*/
+
+.cookie {
+    padding: 30px;
+    height: 400px;
+}
+
+
+/*for assignment 3*/
+.three {
+    flex-direction: column;
+}
+
+.three img {
+    width: 100%;
+}
+
+.links {
+    margin: 5px;
+    width: 66%;
+}
+
+
+/*assignment 4 main page*/
+.four {
+    align-items: center;
+    flex-direction: column;
+}
+
+.four img {
+    width: 80%;
+    padding-right: 0px;
+}
+
+.links {
+    padding: 10px;
+    font-size: 25px;
+}
+
+/*products page*/
+.product1, .product2 {
+    flex-direction: column;
+}
+
+.product1 {
+    background-color: #E59276;
+}
+
+.product2 {
+    background-color:#FAD4C0;
+}
+
+#book1, #book2 {
+    width: 80%;
+}
+
+#words1, #words2 {
+    padding: 40px;
+}
+
+input[type=number] {
+    width: 80%;
+    
+}
+
+#price, #price2, #quantity, #quantity2 {
+    width: 70px;
+    padding: 0px 0px;
+}
+
+/*nodes*/
+.cool {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*the part where we changing the image with buttons*/
+.manipulation img {
+    height: 80%;
+    width: 80%;
+    margin: 5px;
+}
+
+
+/*assignment 6 stuff*/
+.navi li {
+    margin-left:2px;
+    margin-right:2px;
+
+}

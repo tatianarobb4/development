@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!--global css file-->
+        <link rel="stylesheet" type="text/css" href="../css/main.css" />
+
+        <!--Media query for differing browser widths-->
+        <link rel="stylesheet" media="only screen and (max-width: 700px)" href="../css/small.css" />
+
+        <!--Prevent smartphones from scaling the page-->
+        <meta name="viewright" content="initial-scale=1" />
+    </head>
+
+    <body>
+        <div>
+            <!--header-->
+            <header>
+                <h1 id="heading">Web Development 2021</h1>
+
+                <!--My Links!-->
+                <div class="topnav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Ass 1</a></li>
+                        <li><a href="../asg2.html">Ass 2</a></li>
+                        <li><a href="../asg3.html">Ass 3</a></li>
+                        <li><a href="../asg4.html">Ass 4</a></li>
+                        <li><a href="../asg5/index.html">Ass 5</a></li>
+                        <li><a href="index.html">Ass 6</a></li>
+                        <li><a href="../fortuneC.html">Fortune</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <h2>Online Store</h2>
+            <form action="online.php" method="post">
+                <!--enter name and email-->
+                <label for="name">Name: </label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email: </label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <!--pick a product-->
+                <label for="operator">Product: </label><br>
+                <select name="products">
+                    <option value="headphones">Tatiana Headphones</option>
+                    <option value="cards">Tatiana Tarot Cards</option>
+                </select><br>
+
+                <!--enter the quantity-->
+                <label for="quantity">Quantity: </label><br>
+                <input type="number" id="quantity" name="quantity"><br>
+
+                <input type=submit value=submit> 
+                <input type=reset value=reset>
+            </form>
+
+            <!--footer-->
+            <footer>
+                <p>© 2021 Tatiana Robb</p>
+            </footer>
+        </div>
+    </body>
+</html>

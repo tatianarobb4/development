@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!--global css file-->
+        <link rel="stylesheet" type="text/css" href="css/crapGame.css" />
+
+        <!--Prevent smartphones from scaling the page-->
+        <meta name="viewright" content="initial-scale=1" />
+    </head>
+
+    <body>
+        <div>
+            <!--header-->
+            <header>
+                <h1 id="heading">Crap Game</h1>
+
+                <!--My Links!-->
+                <div class="topnav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Ass 1</a></li>
+                        <li><a href="asg2.html">Ass 2</a></li>
+                        <li><a href="asg3.html">Ass 3</a></li> 
+                        <li><a href="asg4.html">Ass 4</a></li>
+                        <li><a href="asg5/index.html">Ass 5</a></li>
+                        <li><a href="fortuneC.html">Fortune</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="crap">
+                <section>
+                        <div class="section1">
+                            <!--label the dies-->
+                            <p id="die1">Die 1: a mystery ooo</p>
+                            <img src="images/dicpair1.gif" id="pic1" height="300px" width="300px">
+                            <p id="die2">Die 2: unknown ooo</p>
+                            <img src="images/dicpair2.gif" id="pic2" height="300px" width="300px">
+                        </div>
+
+                        <div class="section2">
+                            <div class="input">
+                                <form>
+                                    <!--create input to take bet-->
+                                    <label for="bet">Place your bet:</label>
+                                    <input type="number" id="bet" min="1" value="1"><br>
+                                </form>
+        
+                                <!--roll die and display result-->
+                                <button onclick="crapGame()">Roll</button>
+                                <p id="result">Will you win or lose?</p>
+                                <p id="winning"></p>
+                            </div>
+
+                            <div class="instructions">
+                                <h1>Instructions</h1>
+                                <p>
+                                   It has nothing to do with feces.
+                                   If you lose, you "crap out." If you win, you get to gamble with no risk!
+                                   The rules of the game are simple: <br>
+                                   <ul>
+                                       <li>Place your bet</li>
+                                       <li>Roll the dice</li>
+                                       <li>See if you won!</li>
+                                   </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <script src="js/crapGame.js"></script>
+                </section>
+            </div>
+                
+
+            <!--footer-->
+            <footer>
+                <p>© 2021 Tatiana Robb</p>
+            </footer>
+        </div>
+    </body>
+</html>

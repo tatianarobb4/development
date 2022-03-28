@@ -1,0 +1,148 @@
+/*design for the entire page*/
+body {
+    background-color: #fee9e1;
+    font-family: kepler-std;
+}
+
+/*heading stuff*/
+#heading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*top navigational bar*/
+
+.topnav {
+    margin-bottom: 10px;
+}
+
+.topnav ul {
+    /*list-style-position: inside;*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.topnav li {
+    display: inline-block;
+}
+
+.topnav a{
+    width: 80px;
+    display: block;
+    color: black;
+}
+
+button:hover {
+    color: rgba(233, 169, 179, 0.863);
+}
+
+a:link {
+    color: rgb(128, 96, 15);
+    text-decoration: none;
+}
+
+a:visited {
+    color: burlywood;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(233, 169, 179, 0.863);
+    text-decoration: none;
+}
+
+a:active {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+/*crap stuff*/
+
+.crap {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.crap section {
+    text-align: center;
+    display: flex;
+}
+
+.section1 {
+    width: 70%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: double;
+    border-color:peru;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 48%;
+    margin: 5px;
+    background-color: rgba(233, 169, 179, 0.863);
+    align-items: center;
+    
+}
+
+.instructions {
+    height: 47%;
+    background-color: rosybrown;
+    margin: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    padding: 10px;
+}
+
+.instructions h1 {
+    text-align: left;
+}
+
+/*the media query*/
+@media only screen and (max-width:700px){
+    /*navigational bar*/
+    .topnav li {
+        display: block; 
+    }
+
+    .topnav a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .topnav ul {
+        text-align: center;
+    }
+
+    .topnav {
+        border: #FAD4C0;
+        border-radius: 30px;
+        border-style: dotted;
+        margin-bottom: 10px;
+    }
+
+    .crap section {
+        flex-direction: column;
+    }
+
+    .section1 {
+        width: 90%;
+    }
+}

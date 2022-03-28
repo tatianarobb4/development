@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <!--global css file-->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+        <!--Media query for differing browser widths-->
+        <link rel="stylesheet" media="only screen and (max-width: 700px)" href="css/small.css" />
+
+        <!--Prevent smartphones from scaling the page-->
+        <meta name="viewright" content="initial-scale=1" />
+    </head>
+
+    <body>
+        <div>
+            <!--header-->
+            <header>
+                <h1 id="heading">Contact Me</h1>
+
+                <!--My Links!-->
+                <div class="topnav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Ass 1</a></li>
+                        <li><a href="asg2.html">Ass 2</a></li>
+                        <li><a href="asg3.html">Ass 3</a></li>
+                        <li><a href="asg4.html">Ass 4</a></li>
+                        <li><a href="asg5/index.html">Ass 5</a></li>
+                        <li><a href="fortuneC.html">Fortune</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <!--new main section-->
+            <section class="mainSection contactPage">
+                <form action="#" class="formz">
+                    <h1>How can I contact you?</h1>
+
+                    <!--input for name and email-->
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name"><br>
+
+                    <label for="email">Email address</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    
+
+                    <!--select for Subject-->
+                    <label for="subject">Subject</label><br>
+                    <select id="subject" name="subject">
+                        <option value="select">Select one</option>
+                        <option value="question">Question</option>
+                        <option value="inquiry">Inquiry</option>
+                        <option value="comment">General comment</option>
+                    </select> <br>
+
+                    <!--Date-->
+                    <label for="date">Date</label><br>
+                    <input type="date" id="date" name="date"><br>
+
+                    <!--Time-->
+                    <label for="time">Time</label><br>
+                    <input type="time" id="time" name="time"><br>
+                    
+                    <!--checkbox whatever-->
+                    <div class="check">
+                        <h2>I'm interested in...</h2>
+                        <input type="checkbox" id="interest1" name="interest1" value="Bike">
+                        <label for="vehicle1"> The design</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> The content</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> The behavior</label><br>
+                    </div>
+            
+                    <!--Text area-->
+                    <label for="Message">Message</label><br>
+                    <textarea id="message" name="message" rows = 10 placeholder="Tell me anything..."></textarea><br>
+
+                    <!--submit-->
+                    <input type="submit" name="submit" value="submit">
+                </form>
+
+                <img src="images/brown.jpg" />
+            </section>
+
+
+            <!--footer-->
+            <footer>
+                <p>© 2021 Tatiana Robb</p>
+            </footer>
+        </div>
+    </body>
+</html>

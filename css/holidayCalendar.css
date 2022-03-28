@@ -1,0 +1,118 @@
+/*design for the entire page*/
+body {
+    background-color: #fee9e1;
+    font-family: kepler-std;
+}
+
+/*heading stuff*/
+#heading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*top navigational bar*/
+
+.topnav {
+    margin-bottom: 10px;
+}
+
+.topnav ul {
+    /*list-style-position: inside;*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.topnav li {
+    display: inline-block;
+}
+
+.topnav a{
+    width: 80px;
+    display: block;
+    color: black;
+}
+
+button:hover {
+    color: rgba(233, 169, 179, 0.863);
+}
+
+a:link {
+    color: rgb(128, 96, 15);
+    text-decoration: none;
+}
+
+a:visited {
+    color: burlywood;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(233, 169, 179, 0.863);
+    text-decoration: none;
+}
+
+a:active {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+/*for holiday calendar*/
+.calendar {
+    
+    /*background-color: #EFCBBB;*/
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.calendar section {
+    text-align: center;
+}
+
+.inputz {
+    text-align: center;
+    background-color: #F7CAB5;
+    padding: 20px;
+}
+
+form {
+    padding: 20px;
+}
+
+.outputz {
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: #F7CAB5;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.outputz img {
+    padding: 10px;
+    width: 90%;
+}
+
+.outputz p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.pix {
+    width: 55%;
+}
+
+figcaption {
+    font-size: xx-small
+}
+
+
+/*media query for smaller screens*/
+@media only screen and (max-width:700px){
+    .outputz {
+        flex-direction: column;
+    }
+}
